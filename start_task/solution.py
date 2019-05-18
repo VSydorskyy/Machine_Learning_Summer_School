@@ -71,7 +71,7 @@ def check_modify_and_similar(im_1: Image, im_2: Image, eps: float) -> bool:
     im_2 = np.asarray(im_2).astype(float)
 
     '''
-    Correlation threshold is reliable 
+    Correlation threshold is unreliable 
     if np_correlation(im_1.flatten(), im_2.flatten()) < COR_TRESH:
         return True
     '''
